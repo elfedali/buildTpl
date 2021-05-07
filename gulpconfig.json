@@ -1,0 +1,18 @@
+{
+    "browserSyncOptions" : {
+      "proxy": "localhost/",
+      "notify": false,
+      "injectChanges": false
+    },
+    "browserSyncWatchFiles" : [
+      "html/**/*.html"
+    ],
+    "paths" : {
+      "js": "./js",
+      "css": "./css",
+      "img": "./images",
+      "sass": "./sass",
+      "node": "./node_modules/",
+      "dev": "./scripts"
+    }
+  }
